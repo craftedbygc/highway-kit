@@ -1,0 +1,27 @@
+{
+  "name": "@ashthornton/highway-kit",
+  "version": "1.0.5",
+  "description": "Extension of the Highway library to be used as a starter kit",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craftedbygc/highway-kit.git"
+  },
+  "author": "Ash Thornton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craftedbygc/highway-kit/issues"
+  },
+  "homepage": "https://github.com/craftedbygc/highway-kit#readme",
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
+  "devDependencies": {
+    "@dogstudio/highway": "^2.1.3",
+    "gsap": "^2.1.3",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "dependencies": {
+    "gently-copy": "^3.2.0"
+  }
+}
