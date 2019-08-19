@@ -1,6 +1,13 @@
 # Highway Kit
 Contains files needed to quick start a Highway setup
 
+## Features:
+- Automatic execution of scripts loaded via Highway (with caching)
+- Wait for images and videos to load to more finely control when pages are initialised
+- "onFirstLoad" renderer function which allows you to run scripts once only on site load
+- Promise-based example "PageLoader" animation hooked into the default transtion and renderer
+- Change querySelector for selecting links to attach Highway navigate event to
+
 ## Install:
 `npm i --save @ashthornton/highway-kit`
 
@@ -17,6 +24,8 @@ window.addEventListener('DOMContentLoaded', () => {
 })
 ```
 
-Where `'./highway` is the directory you chose in the installation process.
+Where `'./highway'` is the directory you chose in the installation process.
 
-Look inside the copied files to see the Highway setup
+Look inside the copied files to see the Highway setup.
+
+You will need to apply this to the standard Highway HTML structure.
