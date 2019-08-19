@@ -11,11 +11,8 @@ Contains files needed to quick start a Highway setup
 ## Install
 `npm i --save @ashthornton/highway-kit`
 
-You'll be prompted to choose a directory to copy the files to after installation.
-
-Make sure this directory already exists.
-
-Run the npm install command shown after installation to install the required dependencies.
+- You'll be prompted to choose a directory to copy the files to after installation. _Make sure this directory already exists._
+- Run the npm install command shown after installation to install the required dependencies.
 
 ## Usage
 ```
@@ -26,8 +23,6 @@ window.addEventListener('DOMContentLoaded', () => {
 })
 ```
 
-Where `'./highway'` is the directory you chose in the installation process.
-
-Look inside the copied files to see the Highway setup.
-
-You will need to apply this to the standard Highway HTML structure.
+- Where `'./highway'` is the directory you chose in the installation process.
+- Look inside the copied files to see the Highway setup.
+- You will need to apply this to the standard Highway HTML structure.
