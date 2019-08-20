@@ -1,5 +1,5 @@
 # Highway Kit
-Contains files needed to quick start a Highway setup
+Contains files needed to quick start a [Highway](https://github.com/Dogstudio/highway) setup
 
 ## Features
 - Automatic execution of scripts loaded via Highway (with caching)
