@@ -1,6 +1,6 @@
 {
   "name": "@ashthornton/highway-kit",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Extension of the Highway library to be used as a starter kit",
   "main": "index.js",
   "repository": {
